@@ -6,28 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}My Website{% endblock %}</title>
+    {% block head %}{% endblock %}
     <!-- Add your CSS links or styles here -->
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/main.css')}}">
 </head>
 <body>
-    <header>
-        <h1>{% block header %}My Website Header{% endblock %}</h1>
-        <!-- Add navigation or other header content here -->
-    </header>
-
-    <nav>
-        <!-- Add navigation links or menus here -->
-    </nav>
-
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-
-    <footer>
-        <!-- Add footer content here -->
-        <p>&copy; 2023 My Website</p>
-    </footer>
-
-    <!-- Add your JavaScript links or scripts here -->
+    {% block body %}{% endblock %}
 </body>
 </html>
