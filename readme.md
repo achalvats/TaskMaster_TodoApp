@@ -30,3 +30,8 @@ it should be created under instance directory after those commands.
 
 
 
+#install gunicorn
+pip install gunicorn
+
+#freeze requirements
+pip freeze > requirements.txt
