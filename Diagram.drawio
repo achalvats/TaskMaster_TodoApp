@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-01-10T01:04:51.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="FBBc0QZNPxZ5p0OcBcf-" version="21.6.7" type="github">
+  <diagram name="Page-1" id="XXlY9DdAFKopAWAQCHrl">
+    <mxGraphModel dx="996" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IFBxWm9vfi55neEvGCjK-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="40" width="800" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="IFBxWm9vfi55neEvGCjK-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IFBxWm9vfi55neEvGCjK-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58536;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IFBxWm9vfi55neEvGCjK-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="185" y="280" width="510" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7LUP4K8zul6iRubh8ZY-1" target="i7LUP4K8zul6iRubh8ZY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7LUP4K8zul6iRubh8ZY-1" target="i7LUP4K8zul6iRubh8ZY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-1" value="Flask Web Server:&lt;br&gt;WSGI (Web Server Gateway Interface)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.735;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i7LUP4K8zul6iRubh8ZY-2" target="IFBxWm9vfi55neEvGCjK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7LUP4K8zul6iRubh8ZY-2" target="i7LUP4K8zul6iRubh8ZY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-2" value="Flask App&lt;br&gt;(App.py)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7LUP4K8zul6iRubh8ZY-3" target="i7LUP4K8zul6iRubh8ZY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-3" value="Flask Restful API Endpoints" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-4" value="SQLite Database&lt;br&gt;(todo.db)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-5" value="Flask Template &lt;br&gt;(Jinja2)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7LUP4K8zul6iRubh8ZY-6" target="i7LUP4K8zul6iRubh8ZY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-6" value="Static Files (HTML, CSS, JS)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-7" value="Python Flask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-8" value="Render&amp;nbsp;&lt;br&gt;Hosting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IFBxWm9vfi55neEvGCjK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="100" as="sourcePoint" />
+            <mxPoint x="440" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7LUP4K8zul6iRubh8ZY-21" value="Internet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-200" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
